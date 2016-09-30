@@ -1,5 +1,6 @@
 local Node = class("Node",function()
-    return cc.Sprite:create("cell.png")
+    --return cc.Sprite:create("cell.png")
+    return cc.Sprite:createWithSpriteFrameName("cell.png")
 end)
 
 function Node:ctor(x, y)

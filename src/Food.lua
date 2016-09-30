@@ -1,5 +1,6 @@
 local Food = class("Food",function()
-    return cc.Sprite:create("dot.png")
+    --return cc.Sprite:create("dot.png")
+    return cc.Sprite:createWithSpriteFrameName("dot.png")
 end)
 
 function Food:ctor(x, y)

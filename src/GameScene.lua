@@ -48,6 +48,9 @@ function GameScene:createLayer()
     local buttonLeft = widget:getChildByName("Button_Left")
     local buttonRight = widget:getChildByName("Button_Right")
     
+    local frameCache = cc.SpriteFrameCache:getInstance()
+    frameCache:addSpriteFrames("snake0.plist")
+    
     local function onTouchLeft(sender, eventType)
         if eventType == ccui.TouchEventType.ended then
             print("touch left")
