@@ -1,4 +1,4 @@
-#greedy-snake
+# greedy-snake
 
 贪食蛇
 
